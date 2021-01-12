@@ -28,6 +28,7 @@ public class GuestBook implements ActionListener {
   vn.addActionListener(this);
   an.setText("Add Name");
   vn.setText("View Names");
+  
 	// Guest #1: Bob Banders
 	
 	// Guest #2: Sandy Summers

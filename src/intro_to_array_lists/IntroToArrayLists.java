@@ -34,11 +34,12 @@ public class IntroToArrayLists {
 		}
 		//7. Print only the Strings that have the letter 'e' in them.
 		for (int j = 0; j < Intro.size(); j++) {
-			if () {
-				
+			
+			if (Intro.get(j).contains("e")) {
+				System.out.println(Intro.get(j));
 			}
 			
-			System.out.println(Intro.get(i));
+		
 		}
 		
 		
