@@ -43,10 +43,11 @@ public class GuestBook implements ActionListener {
 		JButton bp = (JButton)e.getSource();
 		if (bp == an){
 		String IN	= JOptionPane.showInputDialog("Enter a name to add to the list");
-		
+		//System.out.println(IN); 
 		}
-		else  {
-			
+		else if(bp==vn) {
+			 JOptionPane.showMessageDialog(null, "Current Names");
+			 
 		}
 		}
 	}
